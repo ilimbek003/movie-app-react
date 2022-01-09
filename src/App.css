@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to top, transparent 0%, rgb(78, 9, 5) 0%);
+    height: 65px;
+}
+
+.scrolled {
+    background-color: var(--main-color);
+}
+
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.tab {
+    text-align: center;
+}
+
+.big {
+    background: cornflowerblue;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.title {
+    color: black;
+    font-size: 15px;
+}
+
+
+
+.flags {
+    display: flex;
+}
+
+.street {
+    position: absolute;
+    margin-left: -60px;
+    z-index: 999;
+}
+
+.reference {
+    display: none;
+}
+
+.reference ~ .story {
+    display: none;
+}
+
+.reference + label {
+    font-size: 21px;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.reference:checked ~ .story {
+    display: block;
+    background: Snow;
+    padding: 5px;
+}
+
+
+
+.slick-arrow {
+    background: url("./img/arrow-left.png");
+    display: block;
+    font-size: 0;
+    width: 40px;
+    z-index: 1;
+    height: 40px;
+    position: absolute;
+    border: none;
+    left: -2%;
+    top: 50%;
+}
+
+.slick-next {
+    background: url("./img/arrow-right.svg");
+    display: block;
+    margin-left: 100%;
+}
+
+
+.broth {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tete-hom {
+    margin-left: 50px;
+}
+
+.list-group {
+    border: none;
+}
+
+.hornet {
+    font-size: 40px;
+    color: black;
+}
+
+.viber {
+    color: black;
+    font-size: 20px;
+}
+
+.pro {
+    font-size: 20px;
+    color: black;
+}
+
+.hatch {
+    margin-left: 20px;
+}
+
+.utl {
+    min-height: 100vh;
+}
+
+.bag {
+    margin-left: -50px;
+}
+
+.img {
+    margin-top: 50px;
+    position: absolute;
+}
+
+.hover07 figure img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover07 figure:hover img {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
