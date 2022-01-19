@@ -123,15 +123,14 @@ const PopularMovies = () => {
                                             </span>
                                         </div>
                                     </div>
-    
-w
+
                                     {/*<Spinner animation="border" />*/}
                                 </Card>
                             </div>
                         ))
                     }
                 </div>
-g
+
 
                 <div id="vents">
                     <Slider {...settings}>
